@@ -4,13 +4,13 @@
 
 @layer base {
   body {
-    @apply font-primary bg-gray-200;
+    @apply font-primary bg-gray-300;
   }
   .dropdown {
     @apply w-full lg:max-w-[296px] cursor-pointer;
   }
   .dropdown-btn {
-    @apply flex h-[64px] items-center px-[18px] border rounded-lg;
+    @apply flex h-[50px] items-center px-[18px] py-2 border rounded-lg;
   }
   .dropdown-icon-primary {
     @apply text-2xl mr-[18px] text-violet-700;
@@ -20,5 +20,8 @@
   }
   .dropdown-menu {
     @apply px-6 py-8 text-[15px] space-y-6 shadow-md bg-white absolute w-full z-10 list-none rounded-b-lg;
+  }
+  .imageNotFound{
+    @apply w-[400px] mx-auto m-14
   }
 }
