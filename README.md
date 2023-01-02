@@ -15,10 +15,10 @@ Javascript
 
 ### Dependências
 
-React
-React-dom
-Headlessui react
-Postcss
-React-icons
-React-router-dom
-Tailwindcss
+ -React
+ -React-dom
+ -Headlessui react
+ -Postcss
+ -React-icons
+ -React-router-dom
+ -Tailwindcss
